@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Exercise3</string>
+    <string name="nova_tarefa">Nova Tarefa</string>
+    <string name="descri_o">Descrição</string>
+    <string name="prioridade">Prioridade</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="remover_1">Remover 1º</string>
 </resources>
