@@ -10,9 +10,9 @@
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Nova Tarefa"
+        android:text="@string/nova_tarefa"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -22,9 +22,9 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:text="Descrição"
+        android:text="@string/descri_o"
         android:textSize="14sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -41,16 +41,16 @@
         android:textSize="14sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView"
         app:layout_constraintLeft_toRightOf="@+id/textView"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginTop="16dp"
-        android:text="Prioridade"
+        android:text="@string/prioridade"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -66,7 +66,8 @@
         android:textSize="14sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView3"
         app:layout_constraintLeft_toRightOf="@+id/textView"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/buttonAdicionar"
@@ -76,7 +77,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
         android:onClick="adicionar"
-        android:text="Adicionar"
+        android:text="@string/adicionar"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toRightOf="@+id/editPrioridade"
         app:layout_constraintRight_toRightOf="parent"
@@ -86,10 +87,10 @@
         android:id="@+id/buttonRemover"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:onClick="remover"
-        android:text="Remover 1º"
+        android:text="@string/remover_1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editPrioridade" />
 
